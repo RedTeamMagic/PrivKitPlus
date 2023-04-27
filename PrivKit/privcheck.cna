@@ -1,11 +1,11 @@
 beacon_command_register(
-    "PrivKit", 
+    "PrivKit32", 
     "A simple beacon object file to find potential weaknesses", 
     "#github: mertdas"
     "#twitter: merterpreter"
 );
 
-alias privcheck {
+alias privcheck32 {
     local('$handle $data');
 
     $handle = openf(script_resource("unquotedsvcpath.o"));
